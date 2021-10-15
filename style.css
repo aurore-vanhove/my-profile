@@ -1,0 +1,101 @@
+body{
+	background-color: ghostwhite;
+	color: #1D3958;
+	font-family: helvetica;
+	font-weight: 200
+	font-size: 15px;
+
+}
+h1,h2{font-family: copperplate
+
+}
+h1{
+	color: #1D3958;
+	font-size: 50px;
+
+}
+h2{
+	color: #1D3958;
+	font-size: 30px;
+}
+a{
+	text-decoration: none;
+	color: #D2B599;
+	transition: color 0.3s ease;
+	
+}
+a:hover {
+color: blue;
+}
+
+img{
+	width: 200px;
+	border:50%;
+	box-shadow:5px 7px 10px #D2B599;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+.box-white{
+	background-color: ghostwhite;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-green{
+	background-color: #306253;
+	color: ghostwhite;
+	padding: 15px 20px;
+	border-radius: 5px
+}
+
+.btn-green : hover {
+	background-color: #D2B599;
+	color: ghostwhite ;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 0px 40px;
+}
+
+#intro p{
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
